@@ -1,0 +1,35 @@
+#board {
+    width:336px;
+}
+#board div {
+    width:40px;
+    height:40px;
+    border:1px solid black;
+    float:left;
+}
+.blackBox {
+    background:black;
+}
+#player1pieces {
+    background:red;
+    z-index:2;
+}
+#player2pieces {
+    background:grey;
+}
+#board div .pieces {
+    position:relative;
+    left:4px;
+    top:4px;
+    width:30px;
+    height:30px;
+    border-radius:100%;
+}
+
+p{
+    display:inline;
+}
+
+#which-player{
+    display:block;
+}
